@@ -64,7 +64,7 @@ public class EventWorldTick {
                 hungerModified,
                 NutrientList.get()
                     .size());
-            Sync.normalizeOnServer(amountToChange);
+            Sync.normalizeOnServer(0);
         }
     }
 
